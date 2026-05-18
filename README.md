@@ -27,6 +27,12 @@ All designs are implemented using **Verilog HDL** and configured for Gowin FPGA 
   * `fap201_lab02.v` - Main Verilog module performing continuous assignment for boolean AND operations.
   * `tb_fap201_lab02.v` - Testbench verifying all 4 possible logic input combinations (`00`, `01`, `10`, `11`) and logging the functional Truth Table to the console.
 
+### 🔹 Lab 03: Blinking an LED
+* **Objective:** Implement a sequential logic circuit using D-Flip-Flops to monitor an edge-transition. The system toggles the state of an output LED (`D1`) only at the exact moment an active-low input switch (`SW1`) is released.
+* **Source Files:**
+  * `fap201_lab03.v` - Sequential module incorporating synchronous shift registers for rising-edge detection and output toggle.
+  * `tb_fap201_lab03.v` - Testbench mimicking button press/release timelines with a 50MHz reference clock logic simulation.
+
 ### 🔹 Extra Assignment: Combinational Logic Gates
 * **Objective:** Implement custom boolean logic functions to process 3 inputs (`A`, `B`, `C`) into 3 specific outputs (`X`, `Y`, `Z`) using combinational gate representations.
 * **Source Files:**
