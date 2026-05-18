@@ -21,6 +21,12 @@ All designs are implemented using **Verilog HDL** and configured for Gowin FPGA 
   * `fap201_lab01.v` - Main Verilog module implementing wire-through assignments.
   * `tb_fap201_lab01.v` - Comprehensive testbench sweeping through all 8 possible logic states (from `000` to `111`) for simulation validation.
 
+### 🔹 Lab 02: Lighting an LED with Logic Gates
+* **Objective:** Implement a basic 2-input AND gate using the FPGA's Look-up Table (LUT) architecture. The output LED (`D1`) will only illuminate when both input switches (`SW1` and `SW2`) are pressed simultaneously.
+* **Source Files:**
+  * `fap201_lab02.v` - Main Verilog module performing continuous assignment for boolean AND operations.
+  * `tb_fap201_lab02.v` - Testbench verifying all 4 possible logic input combinations (`00`, `01`, `10`, `11`) and logging the functional Truth Table to the console.
+
 ### 🔹 Extra Assignment: Combinational Logic Gates
 * **Objective:** Implement custom boolean logic functions to process 3 inputs (`A`, `B`, `C`) into 3 specific outputs (`X`, `Y`, `Z`) using combinational gate representations.
 * **Source Files:**
