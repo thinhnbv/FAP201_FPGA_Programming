@@ -33,6 +33,14 @@ All designs are implemented using **Verilog HDL** and configured for Gowin FPGA 
   * `fap201_lab03.v` - Sequential module incorporating synchronous shift registers for rising-edge detection and output toggle.
   * `tb_fap201_lab03.v` - Testbench mimicking button press/release timelines with a 50MHz reference clock logic simulation.
 
+### 🔹 Lab 04: Debouncing a Switch
+* **Objective:** Implement a robust, parameterized hardware Debounce Filter following the course textbook standards. The design incorporates an asynchronous edge-detection architecture and utilizes the `$clog2` system function to automatically scale internal register bit-widths based on mechanical settling time thresholds.
+* **Source Files:**
+  * `debounce_filter.v` - Parameterized digital filter submodule using consecutive condition testing to suppress mechanical contact switch glitches.
+  * `led_toggle.v` - Sequential control subcomponent tracking edge-state releases to flip output signals.
+  * `fap201_lab04.v` - Top-level wrapper managing integration paths and establishing a real-world 5ms (~250,000 clock cycles) debouncing constraint.
+  * `tb_fap201_lab04.v` - Verification testbench modifying module parameters (`defparam`) to thoroughly validate transient response filtering.
+
 ### 🔹 Extra Assignment: Combinational Logic Gates
 * **Objective:** Implement custom boolean logic functions to process 3 inputs (`A`, `B`, `C`) into 3 specific outputs (`X`, `Y`, `Z`) using combinational gate representations.
 * **Source Files:**
