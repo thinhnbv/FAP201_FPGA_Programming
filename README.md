@@ -46,6 +46,14 @@ All designs are implemented using **Verilog HDL** and configured for Gowin FPGA 
 * **Source Files:**
   * `sw_led_logic.v` - Standard module defining boolean expressions for `X`, `Y`, and `Z` outputs via continuous assignments.
   * `tb_sw_led_logic.v` - Verification testbench that prints a complete formatted Truth Table directly to the simulation console using `$display` tasks.
+
+### 🔹 Extra Lab: Multiplexers (MUX)
+* **Objective:** Design, implement, and verify various Multiplexer architectures (2-to-1 gate/dataflow, 4-to-1 structural/behavioral, 8-to-1 structural, and Parameterized N-bit MUX) using gate-level, dataflow, structural, and behavioral modeling styles.
+* **Source Files:**
+  * `Extra_Lab/MUX/mux.v` - Verilog module implementing multiple MUX variants.
+  * `Extra_Lab/MUX/fap201_top_mux.v` - Top-level wrapper module for FPGA board pin mapping.
+  * `Extra_Lab/MUX/tb_mux.v` - Testbench validating MUX functionalities with VCD wave output.
+  * `Extra_Lab/MUX/run_sim.do` - Automated ModelSim/QuestaSim simulation script.
 ---
 
 ## 🚀 Future Updates
