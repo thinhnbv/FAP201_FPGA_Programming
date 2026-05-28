@@ -45,6 +45,15 @@ All designs are implemented using **Verilog HDL** and configured for Gowin FPGA 
   * `tb_fap201_lab04.v` - Verification testbench modifying module parameters (`defparam`) to thoroughly validate transient response filtering.
   * `run_sim.do` - Automated ModelSim/QuestaSim simulation script with grouped waveforms.
 
+### 🔹 Lab 05: Selectively Blinking an LED
+* **Objective:** Blink each of four LEDs on the development board, but only one LED blinking at a time. Select which LED to blink using two switches (`SW1`, `SW2`), powered by a 23-bit XNOR LFSR as a low-resource clock divider, a toggling D-Flip-Flop, and a 1-to-4 DEMUX.
+* **Source Files:**
+  * `demux_1to4.v` - Standard 1-to-4 Demultiplexer implementing routing logic.
+  * `lfsr_nbit.v` - Parameterized N-bit XNOR Linear Feedback Shift Register acting as a done-pulse generator.
+  * `fap201_lab05.v` - Top-level module integrating the LFSR, toggling Flip-Flop, and DEMUX.
+  * `tb_fap201_lab05.v` - Simulation testbench overriding `WIDTH = 4` for high-speed test verification.
+  * `run_sim.do` - Automated ModelSim/QuestaSim simulation script with colored dividers and custom waveform groups.
+
 ### 🔹 Extra Assignment: Combinational Logic Gates
 * **Objective:** Implement custom boolean logic functions to process 3 inputs (`A`, `B`, `C`) into 3 specific outputs (`X`, `Y`, `Z`) using combinational gate representations.
 * **Source Files:**

@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/nguye/Documents/VSCode/FAP201/Lab05_Selectively_Blinking_an_LED
+vdemux_1to4
+!s110 1779942492
+!i10b 1
+!s100 2:SJMY9aW=XIdBg3_n]F53
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;P6Ud0[6mT9IB@RN^RTQG0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1779941269
+8demux_1to4.v
+Fdemux_1to4.v
+!i122 0
+L0 1 15
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1779942492.000000
+!s107 demux_1to4.v|
+!s90 -reportprogress|300|demux_1to4.v|
+!i113 1
+Z4 tCvgOpt 0
+vfap201_lab05
+Z5 !s110 1779942493
+!i10b 1
+!s100 c:7@91Wh?k0:DX[HJOK[`1
+R1
+IWD[M`H5`C]A@:dRUjj;?l2
+R2
+R0
+w1779942003
+8fap201_lab05.v
+Ffap201_lab05.v
+!i122 2
+L0 1 42
+R3
+r1
+!s85 0
+31
+Z6 !s108 1779942493.000000
+!s107 fap201_lab05.v|
+!s90 -reportprogress|300|fap201_lab05.v|
+!i113 1
+R4
+vlfsr_nbit
+R5
+!i10b 1
+!s100 W>8UjdX^2oKD^gedRbI_E2
+R1
+IAJ?@ZiER1YFQ@MkhfF>L33
+R2
+R0
+w1779941574
+8lfsr_nbit.v
+Flfsr_nbit.v
+!i122 1
+L0 1 26
+R3
+r1
+!s85 0
+31
+R6
+!s107 lfsr_nbit.v|
+!s90 -reportprogress|300|lfsr_nbit.v|
+!i113 1
+R4
+vtb_fap201_lab05
+R5
+!i10b 1
+!s100 C;R4X?]>2U`ziF7^?VPYd3
+R1
+IZVh0H1ZSYFJS:bR[0;jn73
+R2
+R0
+w1779942416
+8tb_fap201_lab05.v
+Ftb_fap201_lab05.v
+!i122 3
+L0 3 71
+R3
+r1
+!s85 0
+31
+R6
+!s107 tb_fap201_lab05.v|
+!s90 -reportprogress|300|tb_fap201_lab05.v|
+!i113 1
+R4
