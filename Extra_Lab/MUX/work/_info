@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/nguye/Documents/VSCode/FAP201/Extra_Lab/MUX
 vmux_2to1
-Z1 !s110 1779899270
+Z1 !s110 1779939413
 !i10b 1
 !s100 OMU^>BVAV4@UFL7SziB?L2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ R0
 Z4 w1779898230
 Z5 8mux.v
 Z6 Fmux.v
-!i122 0
+!i122 4
 L0 20 10
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1779899270.000000
+Z8 !s108 1779939412.000000
 Z9 !s107 mux.v|
 Z10 !s90 -reportprogress|300|mux.v|
 !i113 1
@@ -42,7 +42,7 @@ R0
 R4
 R5
 R6
-!i122 0
+!i122 4
 L0 2 16
 R7
 r1
@@ -64,7 +64,7 @@ R0
 R4
 R5
 R6
-!i122 0
+!i122 4
 L0 68 20
 R7
 r1
@@ -86,7 +86,7 @@ R0
 R4
 R5
 R6
-!i122 0
+!i122 4
 L0 32 34
 R7
 r1
@@ -108,7 +108,7 @@ R0
 R4
 R5
 R6
-!i122 0
+!i122 4
 L0 90 35
 R7
 r1
@@ -130,7 +130,7 @@ R0
 R4
 R5
 R6
-!i122 0
+!i122 4
 L0 127 12
 R7
 r1
@@ -144,21 +144,21 @@ R11
 vtb_mux
 R1
 !i10b 1
-!s100 QY^E7XC4UXa5<9j6<[Jen1
+!s100 C>:Z:F0SQZJhOR3dMOS^D1
 R2
-ITL^IZR^a_WaJegXeTkTdZ3
+IM7If_;2C<Qn2]<meh<[BZ1
 R3
 R0
-w1779899164
+w1779939156
 8tb_mux.v
 Ftb_mux.v
-!i122 1
-L0 3 56
+!i122 5
+L0 3 184
 R7
 r1
 !s85 0
 31
-R8
+!s108 1779939413.000000
 !s107 tb_mux.v|
 !s90 -reportprogress|300|tb_mux.v|
 !i113 1
